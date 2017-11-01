@@ -44,7 +44,8 @@
         ylabel: null,
         nopan: true,
         noxaxis: true,
-        noyaxis: true
+        noyaxis: true,
+        cmap: 7
     });
     this.framePlot = new sigplot.Plot(this._widthContainer, {
         useDomMenu: true,
